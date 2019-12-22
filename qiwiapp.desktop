@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=QIWI
+Comment= Simple webapp for qiwi.ru
+Type=Application
+Icon=assets/icon.png
+Exec=webapp-container --user-agent-string="Firefox\67.0" --webappUrlPatterns=https?://qiwi.com/* https://qiwi.com
+Terminal=false
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Color=#ffffff
